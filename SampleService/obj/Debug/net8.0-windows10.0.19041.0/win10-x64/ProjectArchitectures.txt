@@ -1,0 +1,1 @@
+C:\Users\vdi5cob\source\repos\SampleService\SampleService\SampleService.csproj;x64

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleService.View.TeamPage"
+             xmlns:viewmodel="clr-namespace:SampleService.ViewModel"
+             xmlns:model="clr-namespace:SampleService.Model"
+             x:DataType="viewmodel:TeamViewModel"
+             
+             Title="Team">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome Bosch Teams!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label Text="ID"></Label>
+        <Entry Text="{ Binding Team.id}"></Entry>
+        <Label Text="Name"></Label>
+        <Entry Text="{ Binding Team.name}"></Entry>
+        <Label Text="Location"></Label>
+        <Entry Text="{ Binding Team.location}"></Entry>
+        <Label Text="Members Count"></Label>
+        <Entry Text="{ Binding Team.teamMembers}"></Entry>
+        <Button Text="Add Team" Command="{ Binding AddTeamCommand}"></Button>
+        
+        
+        
+        <Label Text="Teams" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <ListView ItemsSource="{Binding Teams}" ItemTapped="ListView_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type model:Team}" >
+                    <TextCell Text="{Binding name}" Detail="{Binding location}">
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

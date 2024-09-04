@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SampleService</name>
+    </assembly>
+    <members>
+        <member name="T:SampleService.ViewModel.TeamDetailViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:SampleService.ViewModel.TeamDetailViewModel.Team">
+            <inheritdoc cref="F:SampleService.ViewModel.TeamDetailViewModel.team"/>
+        </member>
+        <member name="T:SampleService.ViewModel.TeamViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SampleService.ViewModel.TeamViewModel.Team">
+            <inheritdoc cref="F:SampleService.ViewModel.TeamViewModel.team"/>
+        </member>
+        <member name="P:SampleService.ViewModel.TeamViewModel.Teams">
+            <inheritdoc cref="F:SampleService.ViewModel.TeamViewModel.teams"/>
+        </member>
+        <member name="F:SampleService.ViewModel.TeamViewModel.addTeamCommand">
+            <summary>The backing field for <see cref="P:SampleService.ViewModel.TeamViewModel.AddTeamCommand"/>.</summary>
+        </member>
+        <member name="P:SampleService.ViewModel.TeamViewModel.AddTeamCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SampleService.ViewModel.TeamViewModel.AddTeam"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Team">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Team" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Teams">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Teams" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Team">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Team" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Teams">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Teams" generated properties.</summary>
+        </member>
+    </members>
+</doc>
